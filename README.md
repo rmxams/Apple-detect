@@ -20,7 +20,7 @@ Before running this project install the following:
 6. Go to the NVIDIA folder
 7. Open up a new terminal with the task bar
 8. Go inside the jetson-inference folder using cd jetson-inference/
-9. THe docker command will be used to enter the the docker container [./docker/run.sh]
+9. The docker command will be used to enter the the docker container [./docker/run.sh]
 10. Download the ONNX model located in the repository
 11. Enter navigate to python/training/classification and export the model
 12. Set the lables to ripe and unripe
