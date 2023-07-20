@@ -23,6 +23,8 @@ Before running this project install the following:
 9. THe docker command will be used to enter the the docker container [./docker/run.sh]
 10. Download the ONNX model located in the repository
 11. Enter navigate to python/training/classification and export the model
-12. then, run [imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/train/ripe/rp0.jpg apple.jpeg]
-
+12. Set the lables to ripe and unripe
+13. Then, run [imagenet.py --model=$NET/resnet18.onnx --input_blob=input_0 --output_blob=output_0 --labels=$DATASET/labels.txt $DATASET/train/ripe/rp0.jpg apple.jpeg]
+https://github.com/dusty-nv/jetson-inference/blob/master/docs/pytorch-cat-dog.md#processing-all-the-test-images
+REFER TO THIS LINK IF YOU ARE HAVING ANY ISSUES
 [View a video explanation here](video link)
